@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		654AFDD6139EC12900C80B5F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654AFDD5139EC12900C80B5F /* Cocoa.framework */; };
+		654AFDE0139EC12900C80B5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 654AFDDE139EC12900C80B5F /* InfoPlist.strings */; };
+		654AFDE3139EC12900C80B5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 654AFDE2139EC12900C80B5F /* main.m */; };
+		654AFDE6139EC12900C80B5F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 654AFDE4139EC12900C80B5F /* Credits.rtf */; };
+		654AFDE9139EC12900C80B5F /* VoronoiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 654AFDE8139EC12900C80B5F /* VoronoiAppDelegate.m */; };
+		654AFDEC139EC12900C80B5F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654AFDEA139EC12900C80B5F /* MainMenu.xib */; };
+		654AFDF4139EC17400C80B5F /* VoronoiView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654AFDF3139EC17400C80B5F /* VoronoiView.mm */; };
+		654AFDFF139EC24C00C80B5F /* VoronoiDiagramGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654AFDFD139EC24C00C80B5F /* VoronoiDiagramGenerator.cpp */; };
+		DA93D8891511EA90002D95A0 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = DA93D8881511EA90002D95A0 /* list.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		654AFDD1139EC12900C80B5F /* Voronoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voronoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		654AFDD5139EC12900C80B5F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		654AFDD8139EC12900C80B5F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		654AFDD9139EC12900C80B5F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		654AFDDA139EC12900C80B5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		654AFDDD139EC12900C80B5F /* Voronoi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Voronoi-Info.plist"; sourceTree = "<group>"; };
+		654AFDDF139EC12900C80B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		654AFDE1139EC12900C80B5F /* Voronoi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Voronoi-Prefix.pch"; sourceTree = "<group>"; };
+		654AFDE2139EC12900C80B5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		654AFDE5139EC12900C80B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		654AFDE7139EC12900C80B5F /* VoronoiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoronoiAppDelegate.h; sourceTree = "<group>"; };
+		654AFDE8139EC12900C80B5F /* VoronoiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoronoiAppDelegate.m; sourceTree = "<group>"; };
+		654AFDEB139EC12900C80B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		654AFDF2139EC17400C80B5F /* VoronoiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiView.h; sourceTree = "<group>"; };
+		654AFDF3139EC17400C80B5F /* VoronoiView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoronoiView.mm; sourceTree = "<group>"; };
+		654AFDFD139EC24C00C80B5F /* VoronoiDiagramGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VoronoiDiagramGenerator.cpp; sourceTree = "<group>"; };
+		654AFDFE139EC24C00C80B5F /* VoronoiDiagramGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiDiagramGenerator.h; sourceTree = "<group>"; };
+		DA93D8881511EA90002D95A0 /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		DA93D88B1511EAA4002D95A0 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654AFDCE139EC12900C80B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654AFDD6139EC12900C80B5F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654AFDC6139EC12900C80B5F = {
+			isa = PBXGroup;
+			children = (
+				654AFDDB139EC12900C80B5F /* Voronoi */,
+				654AFDD4139EC12900C80B5F /* Frameworks */,
+				654AFDD2139EC12900C80B5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		654AFDD2139EC12900C80B5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654AFDD1139EC12900C80B5F /* Voronoi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654AFDD4139EC12900C80B5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654AFDD5139EC12900C80B5F /* Cocoa.framework */,
+				654AFDD7139EC12900C80B5F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		654AFDD7139EC12900C80B5F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654AFDD8139EC12900C80B5F /* AppKit.framework */,
+				654AFDD9139EC12900C80B5F /* CoreData.framework */,
+				654AFDDA139EC12900C80B5F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		654AFDDB139EC12900C80B5F /* Voronoi */ = {
+			isa = PBXGroup;
+			children = (
+				654AFDE7139EC12900C80B5F /* VoronoiAppDelegate.h */,
+				654AFDE8139EC12900C80B5F /* VoronoiAppDelegate.m */,
+				654AFDEA139EC12900C80B5F /* MainMenu.xib */,
+				654AFDFD139EC24C00C80B5F /* VoronoiDiagramGenerator.cpp */,
+				654AFDFE139EC24C00C80B5F /* VoronoiDiagramGenerator.h */,
+				654AFDF2139EC17400C80B5F /* VoronoiView.h */,
+				654AFDF3139EC17400C80B5F /* VoronoiView.mm */,
+				654AFDDC139EC12900C80B5F /* Supporting Files */,
+				DA93D8881511EA90002D95A0 /* list.c */,
+				DA93D88B1511EAA4002D95A0 /* list.h */,
+			);
+			path = Voronoi;
+			sourceTree = "<group>";
+		};
+		654AFDDC139EC12900C80B5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				654AFDDD139EC12900C80B5F /* Voronoi-Info.plist */,
+				654AFDDE139EC12900C80B5F /* InfoPlist.strings */,
+				654AFDE1139EC12900C80B5F /* Voronoi-Prefix.pch */,
+				654AFDE2139EC12900C80B5F /* main.m */,
+				654AFDE4139EC12900C80B5F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654AFDD0139EC12900C80B5F /* Voronoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654AFDEF139EC12900C80B5F /* Build configuration list for PBXNativeTarget "Voronoi" */;
+			buildPhases = (
+				654AFDCD139EC12900C80B5F /* Sources */,
+				654AFDCE139EC12900C80B5F /* Frameworks */,
+				654AFDCF139EC12900C80B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voronoi;
+			productName = Voronoi;
+			productReference = 654AFDD1139EC12900C80B5F /* Voronoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654AFDC8139EC12900C80B5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = 654AFDCB139EC12900C80B5F /* Build configuration list for PBXProject "Voronoi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 654AFDC6139EC12900C80B5F;
+			productRefGroup = 654AFDD2139EC12900C80B5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654AFDD0139EC12900C80B5F /* Voronoi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654AFDCF139EC12900C80B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654AFDE0139EC12900C80B5F /* InfoPlist.strings in Resources */,
+				654AFDE6139EC12900C80B5F /* Credits.rtf in Resources */,
+				654AFDEC139EC12900C80B5F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654AFDCD139EC12900C80B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654AFDE3139EC12900C80B5F /* main.m in Sources */,
+				654AFDE9139EC12900C80B5F /* VoronoiAppDelegate.m in Sources */,
+				654AFDF4139EC17400C80B5F /* VoronoiView.mm in Sources */,
+				654AFDFF139EC24C00C80B5F /* VoronoiDiagramGenerator.cpp in Sources */,
+				DA93D8891511EA90002D95A0 /* list.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		654AFDDE139EC12900C80B5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654AFDDF139EC12900C80B5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		654AFDE4139EC12900C80B5F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654AFDE5139EC12900C80B5F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		654AFDEA139EC12900C80B5F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654AFDEB139EC12900C80B5F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		654AFDED139EC12900C80B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		654AFDEE139EC12900C80B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		654AFDF0139EC12900C80B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Voronoi/Voronoi-Prefix.pch";
+				INFOPLIST_FILE = "Voronoi/Voronoi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		654AFDF1139EC12900C80B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Voronoi/Voronoi-Prefix.pch";
+				INFOPLIST_FILE = "Voronoi/Voronoi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654AFDCB139EC12900C80B5F /* Build configuration list for PBXProject "Voronoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654AFDED139EC12900C80B5F /* Debug */,
+				654AFDEE139EC12900C80B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654AFDEF139EC12900C80B5F /* Build configuration list for PBXNativeTarget "Voronoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654AFDF0139EC12900C80B5F /* Debug */,
+				654AFDF1139EC12900C80B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654AFDC8139EC12900C80B5F /* Project object */;
+}
